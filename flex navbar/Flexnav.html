@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex nav</title>
+
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+      .nav{
+        background-color: indianred;
+        height: 15vh;
+      }
+
+      .nav-list{
+        height: 15vh;
+        display: flex;
+        width: 40vw;
+        /* border: 1px solid white; */
+        margin: auto;
+      }
+
+      .nav-list li{
+        color: black;
+        /* border: 1px solid brown; */
+        width: 10vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-decoration: dotted;
+        font-weight: bold;
+        font-size: 20;
+        font-family: sans-serif;
+        transition: all ease 1s;
+      }
+
+
+      .nav-list li:hover{
+         color: azure;
+         cursor: pointer;
+      }
+
+
+
+
+    </style>
+
+
+
+
+</head>
+<body>
+    <div class="nav">
+        <ul class="nav-list">
+            <li>Home</li>
+            <li>Services</li>
+            <li>About Us</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+</body>
+</html>
